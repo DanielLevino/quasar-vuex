@@ -9,7 +9,7 @@
           > 
             {{showGetThisPokemonModal.pokemon.name}} 
           </div>
-          <img class="q-pa-xl" style="max-width: 400px;" :src="`https://cdn.traction.one/pokedex/pokemon/${showGetThisPokemonModal.pokemon.id}.png`" alt="">
+          <img class="q-pa-xl" style="max-width: 400px;" :src="`https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/${showGetThisPokemonModal.pokemon.id}.png`" alt="">
           <div class="row justify-center">
             <q-rating
               v-model="tries"

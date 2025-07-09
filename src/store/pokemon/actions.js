@@ -10,6 +10,7 @@ export const ActionGetPokemons = ({ dispatch, commit }, payload) => {
       await API.get(`/pokemon/${rand}`)
         .then((response) => {
           response.data.item = i;
+          console.log(response.data)
           commit("ADDTOARRAY_POKEMON", response.data);
         })
         .catch((error) => {

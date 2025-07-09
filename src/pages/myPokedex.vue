@@ -14,7 +14,7 @@
                             </div>
                         </q-card-section>
         
-                        <img class="q-pa-sm" :src="`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`" alt="">
+                        <img class="q-pa-sm" :src="`https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/${String(pokemon.id).padStart(3,0)}.png`" alt="">
                         
                         <q-card-section>
                             <div class="text-center text-h6">
